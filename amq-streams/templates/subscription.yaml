@@ -10,3 +10,4 @@ spec:
   name: amq-streams
   source: redhat-operators
   sourceNamespace: openshift-marketplace
+  version: v1alpha1
