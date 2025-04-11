@@ -1,0 +1,6 @@
+apiVersion: v2
+name: milvus-and-attu
+description: milvus and attu deployment
+type: application
+version: 2.4.0
+appVersion: "1.0.0"

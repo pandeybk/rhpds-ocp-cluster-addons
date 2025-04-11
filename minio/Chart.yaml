@@ -1,0 +1,6 @@
+apiVersion: v2
+name: minio
+description: minio deployment
+type: application
+version: 2023.06.19
+appVersion: "1.0.0"

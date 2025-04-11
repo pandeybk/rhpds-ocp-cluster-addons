@@ -1,0 +1,6 @@
+apiVersion: v2
+name: amq-streams-operator
+description: amq-streams-operator deployment
+type: application
+version: 2.7.0
+appVersion: "1.0.0"
