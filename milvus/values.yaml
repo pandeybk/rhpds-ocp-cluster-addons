@@ -1,2 +1,2 @@
 operator:
-  namespace: netsentinel
+  namespace: milvus-operator
