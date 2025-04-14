@@ -16,9 +16,6 @@ spec:
         - name: data
           persistentVolumeClaim:
             claimName: minio-pvc
-        - name: tls-certs
-          secret:
-            secretName: minio-tls-secret
       containers:
         - name: minio
           resources:
@@ -66,9 +63,6 @@ spec:
             - name: data
               mountPath: /data
               subPath: minio
-            - name: tls-certs
-              mountPath: /etc/tls
-              readOnly: true
           terminationMessagePolicy: File
           image: quay.io/minio/minio:RELEASE.2023-06-19T19-52-50Z
           args:
